@@ -1,0 +1,32 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
+{
+    // Spacing between the gutter and the text
+    "margin": 2,
+    // Columns in which to display vertical rulers
+    "rulers": [80, 100, 120],
+    // The number of spaces a tab is considered equal to
+    "tab_size": 2,
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+    // Adds whitespace up to the first open bracket when indenting. Requires
+    // auto_indent to be enabled.
+    "indent_to_bracket": true,
+    // Set to true to draw a border around the visible rectangle on the minimap.
+    // The color of the border will be determined by the "minimapBorder" key in
+    // the color scheme
+    "draw_minimap_border": true,
+    // Always visualise the viewport on the minimap, as opposed to only
+    // showing it on mouse over
+    "always_show_minimap_viewport": true,
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true,
+    // Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+    // Set to true to automatically save files when switching to a different file
+    // or application
+    "save_on_focus_lost": true,
+    // Display file encoding in the status bar
+    "show_encoding": true,
+}
